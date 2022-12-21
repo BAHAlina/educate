@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 8%;
+	padding-right: 8%;
+    background-color: rgb(255, 255, 255);
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px  10px;
+    
+
+}
+a{
+    color: #1F4690;  /*a changer*/
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold
+}
+a:hover {
+    color: #F66B0E;
+    transition: .4s;
+}
+.logo{
+    font-size: 30px;
+    color:
+    #1F4690 ;
+    font-weight: bold;
+
+}
+span{
+    color: #F66B0E;
+}
