@@ -2,13 +2,11 @@ import React from "react";
 
 
 
-
-function About(){
+function Annonce(){
     return(
         <div>
             
         </div>
     )
 }
-
-export default  About
+export default Annonce

@@ -1,15 +1,14 @@
 import React from 'react';
 
-import NavBar from './NavBar';
-import Home from './Home';
-import About from './About';
-
+import NavBar from './navbar/NavBar';
+import Home from './home/Home';
+import About from './about/About';
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Home />
-      <About />
+      <About img='/image2.jpg' />
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Home (){
                 <div className="newslatter">
 				<form>
 					<input type="text"  id="mail" placeholder="Enter The annocement"/>
-					<input type="submit" value="Lets Start"/>
+					<input type="submit" value="Search"/>
 				</form>
 			</div>
 				
