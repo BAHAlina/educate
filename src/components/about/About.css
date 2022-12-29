@@ -2,7 +2,7 @@
     padding-top: 70px;
 
 }
-img{
+.imgg img{
     height: 500px;
     width: 600px;
     padding-left: 80px;
@@ -41,4 +41,11 @@ img{
     background-color: #F66B0E;
     color: #EFEFEF;
     border: 2px solid transparent;
+}
+.add{
+    text-decoration: none;
+    color: #1F4690;
+}
+.add:hover{
+    color: #EFEFEF;
 }

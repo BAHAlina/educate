@@ -1,0 +1,111 @@
+.rtr{
+    text-decoration: none;
+    color: #F66B0E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    
+}
+.laliste{
+    padding-top: 15px;
+    background-color: #1F4690;
+    color: #EFEFEF;
+    height: 80px;
+}
+.laliste ul li {
+    margin-right:150px ;
+    font-size: 26px;
+    font-weight: bold;
+}
+.laliste ul li h4{
+    padding-right: 70px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.colm{
+    display: flex;
+    flex-direction: row;
+}
+.colm .imag{
+    margin-left: 100px;
+}
+.colm .imag img{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 230px;
+    margin-top: 15px;
+    
+}
+.colm .imag p {
+    color: #F66B0E;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.prof p{
+    margin-bottom: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+    color: #1F4690;
+}
+.prof .p1{
+    margin-top: 60px;
+}
+.prof .p2{
+    padding-top: 40px;
+}
+.prof .p3{
+    padding-top: 40px;
+}
+.lieu p{
+    margin-bottom: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 115px;
+    color: #1F4690;
+}
+.lieu .p1{
+    padding-top: 60px;
+}
+.lieu .p2{
+    padding-top: 40px;
+}
+.lieu .p3{
+    padding-top: 40px;
+}
+.prix p{
+    margin-bottom: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 175px;
+    color: #1F4690;
+}
+.prix .p1{
+    padding-top: 60px;
+}
+.prix .p2{
+    padding-top: 40px;
+}
+.prix .p3{
+    padding-top: 40px;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    
+}
+.action i{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #F66B0E;
+    
+}
+.action .icon img{
+    height: 70px;
+    width: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

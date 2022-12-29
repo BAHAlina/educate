@@ -14,13 +14,13 @@ li{
     
 
 }
-a{
-    color: #1F4690;  /*a changer*/
+ul li a{
+    color: #1F4690;  
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold
 }
-a:hover {
+ul li a:hover {
     color: #F66B0E;
     transition: .4s;
 }
@@ -33,4 +33,10 @@ a:hover {
 }
 span{
     color: #F66B0E;
+}
+.favor{
+    text-decoration: none;
+    color: #F66B0E;
+    font-size: 18px;
+    font-weight: 700;
 }

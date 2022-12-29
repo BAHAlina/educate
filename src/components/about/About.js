@@ -18,7 +18,8 @@ function About(){
                     . Ut enim ad minim veniam
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                 </p>
-                <button>learn more</button>
+                <p>pour ajouter un annonce cliquer ici</p>
+                <button><a className="add" href="https://docs.google.com/forms/d/e/1FAIpQLSfRYARXPjoz9hUDaDLQTYqwhHenUCl0iEaVxaVZCfsS7DUlnw/viewform?embedded=true">Add annonce</a></button>
                 </div>
             </div>
             

@@ -1,0 +1,149 @@
+.card{
+    height: 400px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    background-color: #EFEFEF;
+}
+.card img{
+    height: 180px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.bodycard{
+    margin-left: 15px;
+}
+.nbr1{
+    border: 2px solid #1F4690;
+    background-color: #EFEFEF;
+    color: #1F4690;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 15px;
+
+}
+.nbr1 a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1F4690;
+    text-decoration:  none;
+}
+.nbr1:hover{
+    border: 2px solid transparent;
+    background-color: #F66B0E;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.nbr1 a:hover{
+    color: white;
+}
+.bodycard p{
+    color: #1F4690;
+    font-weight: 480;
+}
+span{
+    font-weight: 500;
+}
+.ann{
+    color :#1F4690;
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 600px;
+    padding-top:50px ;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+.save{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    border: 2px solid transparent;/* on voire apr*/
+    background-color: #EFEFEF;
+    border-radius: 30px;
+}
+.save img{
+    height: 30px;
+    width: 30px;
+    margin-left: 0px; 
+
+}
+.titrre{
+    display: flex;
+    align-items: baseline;
+}
+
+.ser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    margin-left: 250px;
+    
+}
+.ser input{
+    border-radius: 30px;
+    border:1.6px solid #F66B0E ;
+    outline: none;
+    height: 38px;
+    width: 240px;
+    box-shadow: inset 1px 2px 3px rgb(0, 0, 0,0.05);
+    padding-left: 10px;
+    background-color: #EFEFEF;
+}
+
+.filter .btnn button{
+
+    
+    background-color: #F66B0E;
+    margin-left: 0px;
+    height: 33px;
+    width: 40px;
+    margin-left: -47px;
+    padding-top: 3px;
+    border-radius: 20px;
+    border: none;
+}
+.search-bar::placeholder{
+    border:1.6px solid transparent ;
+    
+}
+button i{
+    margin-top: -5px;
+    color: #EFEFEF;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px 0;
+}
+.filter h5{
+    display: inline-block;
+    font-size: 25px;
+    color: #1F4690;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+.filter ul{
+    display: inline-block;
+}
+.filter .ser{display: inline-block;}
+.by  button{
+    background-color: #EFEFEF;
+    color: #1F4690;
+    border: 2px solid #1F4690;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.by  button:hover{
+    background-color: #F66B0E;
+    color: #EFEFEF;
+    border: 2px solid transparent;
+}

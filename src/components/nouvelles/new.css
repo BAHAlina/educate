@@ -1,0 +1,40 @@
+.cadre {
+    height: 340px;
+    width: 280px;
+    background:#EFEFEF;
+    border-radius: 15px;
+    border :2px solid #1F4690;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+   
+}
+.cadre i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #F66B0E;
+    margin-left: 0px;
+}
+.titre{
+    color: #F66B0E;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.pra{
+    color: #1F4690;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nouv{
+    color :#1F4690;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 600px;
+    margin-top:50px ;
+    margin-bottom: 35px;
+}

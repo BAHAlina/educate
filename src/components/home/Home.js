@@ -10,7 +10,7 @@ function Home (){
                 <h3>Here we found our annomnement and news</h3>
                 <div className="newslatter">
 				<form>
-					<input type="text"  id="mail" placeholder="Enter The annocement"/>
+					<input type="text"   placeholder="Enter The annocement"/>
 					<input type="submit" value="Search"/>
 				</form>
 			</div>

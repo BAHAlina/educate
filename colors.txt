@@ -2,3 +2,24 @@
 #1F4690
 #F66B0E
 #EFEFEF
+<div className="favor">
+                    <div><img src="/Images/img3.jpg"/><p>cour math</p></div>
+                    <p className="prof">Baha lina</p>
+                    <p className="lieu">Bordj</p>
+                    <p className="prix">100$</p>
+                    <div><i class="fa-solid fa-trash"></i></div>
+                </div>
+                <div className="favor">
+                    <div><img src="/Images/img3.jpg"/><p>cour physique</p></div>
+                    <p className="prof">Baha ikram</p>
+                    <p className="lieu">Bordj</p>
+                    <p className="prix">300$</p>
+                    <div><i class="fa-solid fa-trash"></i></div>
+                </div>
+                <div className="favor">
+                    <div><img src="/Images/img3.jpg"/><p>cour science</p></div>
+                    <p className="prof">Baha lokman</p>
+                    <p className="lieu">Bordj</p>
+                    <p className="prix">1200$</p>
+                    <div><i class="fa-solid fa-trash"></i></div>
+                </div>
