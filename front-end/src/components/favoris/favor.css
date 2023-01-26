@@ -1,0 +1,80 @@
+.rtr{
+    text-decoration: none;
+    color: #F66B0E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    
+}
+#fav-page .nav-bare{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1F4690;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    
+}
+#fav-page .nav-bare span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+#fav-page .fav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: .3s ease;
+}
+#fav-page .fav-row:hover{
+    background-color: #ddd;
+    
+}
+#fav-page .fav-row div{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+#fav-page .fav-row div img{
+    width: 300px;
+    height: 250px;
+    margin: 50px;
+}
+#fav-page .fav-row div p{
+    position: absolute;
+    left: 70px;
+    margin-top: 10px;
+    color: #F66B0E;
+}
+#fav-page .fav-row p{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    left: 500px;
+    color: #1F4690;
+}
+#fav-page .fav-row span{
+    position:absolute;
+    font-size: 20px;
+    font-weight: 500;
+    left: 900px;
+    color: #1F4690;
+}
+#fav-page .fav-row i{
+   position: absolute;
+   right: 50px;
+   font-size: 1.7rem;
+   color: #F66B0E;
+}
+/*************************************************/
+@media (max-width:768px){
+    #fav-page .fav-row span{
+        position:absolute;
+        font-size: 20px;
+        font-weight: 500;
+        left: 400px;
+        color: #1F4690;
+    }
+}

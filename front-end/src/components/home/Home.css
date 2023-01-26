@@ -1,0 +1,51 @@
+.content{
+    height: 500px;
+	width: 100%;
+    background-image: url(study.jpg);
+    background-size: cover;
+	background-position: center;
+}
+.ecr{ 
+    position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+    color: #231955;
+}
+h3{
+    width: 470px;
+    padding-bottom: 50px;
+}
+h4{
+    font-weight: bold;
+}
+h1{
+    padding-bottom: 10px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+    background-color: #EFEFEF;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #F66B0E;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#F66B0E;
+	color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px; 
+}
