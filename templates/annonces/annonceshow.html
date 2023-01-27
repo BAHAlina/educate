@@ -1,0 +1,67 @@
+<html lang="en-us">
+<h3>Welcome {{ user.username}}</h3>
+<a href="{% url 'annonceshow' %}">refresh</a>
+<a href="{% url 'logout' %}">deconnexion</a>
+<form>
+    <input type = "search" name="rechercher">
+    
+    <select name="themeAnnonce">
+        <option value="none">none</option>
+        <option value="math">math</option>
+        <option value="physique">physique</option>
+        <option value="science">math</option>
+        <option value="physique">physique</option>
+    </select>
+    <select name="wilayaAnnonce">
+        <option value="none">none</option>
+        <option value="bejaia">bejaia</option>
+        <option value="alger">alger</option>
+    </select>
+    <select name="communeAnnonce">
+        <option value="none">none</option>
+        <option value="lkseur">lkseur</option>
+        <option value="amizour">amizour</option>
+    </select>
+    <input type="date" name="date1" value="2023-01-01">
+    <input type="date" name="date2" value="2023-01-01">
+        <input type="submit" value="filtrer">
+</form>
+
+{% if user.favori %}
+<p>
+<a href="{% url 'favoris' %}">voir favoris ( il y a:{{ user.favori.annonces.count}})</a>
+</p>
+{% endif %}
+<p>
+<a href="{% url 'dejadeposer' %}">voir les annonces  deposer par vous</a>
+</p>
+<p>
+<a href="{% url 'messages' %}">voir les messages recu </a>
+</p>
+<p>
+<a href="{% url 'messagesenvoye' %}">voir les messages envoye </a>
+</p>
+
+<h4>Les annonces disponible: </h4>
+{% for i in annoncer%}
+    id={{i.id}}
+    <br>
+    titre={{i.titre}}
+    <br>
+    category={{i.category}}
+    <br>
+    theme={{i.themeAnnonce}}
+    <br>
+    wilaya={{i.wilayaAnnonce}}
+    <br>
+    commune={{i.communeAnnonce}}
+    <br>
+    date={{i.datepub}}
+    <br>
+    description={{i.description}}
+    <a href="{% url 'details' i.slug  %}" >  voir les details</a>
+    <hr>
+{% endfor %}
+
+<a href="{% url 'annonce' %}">ajouter une annnonce</a>
+</html>

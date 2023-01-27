@@ -1,0 +1,9 @@
+<h4>Ajouter une annonce</h4s>
+<form method="POST">
+   {% csrf_token %}
+{{an}}
+<br>
+<input type="submit" value="save">
+</form>
+<a href="{% url 'annonceshow' %}">revenir</a>
+

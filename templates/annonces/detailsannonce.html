@@ -1,0 +1,43 @@
+<h3>{{annonce.titre}}</h3> 
+   category={{annonce.category}}
+    <br>
+    theme={{annonce.themeAnnonce}}
+    <br>
+    modalite={{annonce.modalite}}
+    <br>
+    description={{annonce.description}}
+    <br>
+    tarif={{annonce.tarif}}
+    <br>
+    adresse={{annonce.adressAnnonce}}
+    <br>
+    wilaya={{annonce.wilayaAnnonce}}
+    <br>
+    commune={{annonce.communeAnnonce}}
+    <br>
+    photo=<img src="{{ annonce.url }}" alt="cc" width=60px, height=40px>
+    <br>
+    nom={{annonce.nomAnnonceur}}
+    <br>
+    prenom={{annonce.prenomAnnonceur}}
+    <br>
+    adresseAnn={{annonce.adressAnnonceur}}
+    <br>
+    email={{annonce.emailAnnonceur}}
+    <br>
+    tel={{annonce.telAnnonceur}}
+    <hr>
+
+    <p>
+    <a href="{% url 'ajouterfavori' annonce.slug %}" >Ajouter au favori</a>
+    </p>
+    <p>
+    <a href="{% url 'envoyermessage' annonce.slug %}">envoyer un message a l'annonceur</a>
+    </p>
+    <p>
+    <a href="{% url 'annonceshow' %}">revenir</a>
+    </p>
+    
+    
+
+

@@ -1,0 +1,10 @@
+    <h1>Envoyer un message?</h1>
+<form method="POST">
+    {% csrf_token %}
+    <p>
+    {{em}}
+    </p>
+    <button type="submit">envoyer</button>
+</form>
+
+<a href="{% url 'annonceshow' %}">revenir</a>

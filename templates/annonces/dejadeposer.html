@@ -1,0 +1,19 @@
+<h4>Voici les annonces que vous avez deposer</h4>
+{% for i in annoncet%}
+    category={{i.category}}
+    <br>
+    theme={{i.themeAnnonce}}
+    <br>
+    wilaya={{i.wilayaAnnonce}}
+    <br>
+    commune={{i.communeAnnonce}}
+    <br>
+    date={{i.datepub}}
+    <br>
+    description={{i.description}}
+    <a href="{% url 'details' i.slug  %}" >voir les details</a>
+    <hr>
+{% endfor %}
+<a href="{% url 'annonce' %}">ajouter une annnonce</a>
+<br>
+<a href="{% url 'annonceshow' %}">revenir</a>

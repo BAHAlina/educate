@@ -1,0 +1,8 @@
+<h4>Voici les messages que vous avez recu</h4>
+{% for i in msgs%}
+    message={{i.message}}
+    <br>
+    sender={{i.sender}}
+    <hr>
+{% endfor %}
+<a href="{% url 'annonceshow' %}">revenir</a>
