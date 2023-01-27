@@ -21,7 +21,7 @@ cliquez sur rejoindre pour rejoindre le cours.
 Notre site vous permet de checher les annonces selon la wilaya,le theme,la categorie ...
 Pour un enseignant , notre plateforme vous permet de donner des cours de soutiens selon votre emploi du temps, votre wilaya ...
 Il suffit aussi juste d'ajouter une annonces avec les informations demandées.
-Vous trouverez que de la joie et la bonne humeur avec LearnIt.
+Vous trouverez que de la joie et la bonne humeur avec LearnIt
                 </p>
                 </div>
             </div>
