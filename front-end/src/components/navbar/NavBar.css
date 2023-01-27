@@ -39,6 +39,10 @@ span{
 .favor{
     text-decoration: none;
     color: #F66B0E;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
+    margin-left: 40px;
+}
+.fvr{
+    margin-right: 10px;
 }

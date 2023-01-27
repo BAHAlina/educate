@@ -8,7 +8,7 @@ function Contact(){
         <div>
             <div className="contacte">
                 <div className="contente">
-                    <h2>Contact <span>Us</span></h2>
+                    <h2>Contact <span>Nous</span></h2>
                 </div>
                 <div className="coontainer">
                     <div className="contactinfo">
@@ -23,7 +23,7 @@ function Contact(){
                         <div className="box">
                             <div className="icon"><i class="fa-solid fa-phone"></i></div>
                             <div className="texte">
-                                <h3>Phone</h3>
+                                <h3>Téléphone</h3>
                                 <p>05-55-55-55-55</p>
                         
                             </div>
@@ -39,10 +39,10 @@ function Contact(){
                     </div>
                     <div className="contactform">
                         <div className="forme">
-                            <h2>Send Message</h2>
+                            <h2>Votre Message</h2>
                             <div className="inputbox">
                                 <input type="text" required="required"/>
-                                <span>Full name</span>
+                                <span>Nom Complet</span>
                             </div>
                             <div className="inputbox">
                                 <input type="text" required="required" />
@@ -50,10 +50,10 @@ function Contact(){
                             </div>
                             <div className="inputbox">
                                 <textarea required="required"></textarea>
-                                <span>Type your message ...</span>
+                                <span>Ecrivez votre message ...</span>
                             </div>
                             <div className="inputbox">
-                                <input type="submit" />
+                                <input type="submit"  placeholder="envoyer"/>
                                 
                             </div>
                         </div>

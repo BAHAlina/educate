@@ -5,7 +5,7 @@ import './favor.css'
 function Favoris(){
     return(
         <div>
-                <a className="rtr" href="/home">retoour</a>
+                <a className="rtr" href="/home">retour</a>
                 <section id="fav-page">
                     <div className="nav-bare">
                         <span>Ma Liste</span>
@@ -20,7 +20,7 @@ function Favoris(){
                         </div>
                         <p>Baha Lina</p>
                         <span>100$</span>
-                        <i class="fa-sharp fa-solid fa-trash"></i>
+                        <a><i class="fa-sharp fa-solid fa-trash"></i></a>
                     </div>
                     <div className="fav-row">
                         <div>
@@ -29,7 +29,7 @@ function Favoris(){
                         </div>
                         <p>Baha Lina</p>
                         <span>100$</span>
-                        <i class="fa-sharp fa-solid fa-trash"></i>
+                        <a><i class="fa-sharp fa-solid fa-trash"></i></a>
                     </div>
                     <div className="fav-row">
                         <div>
@@ -38,7 +38,7 @@ function Favoris(){
                         </div>
                         <p>Baha Lina</p>
                         <span>100$</span>
-                        <i class="fa-sharp fa-solid fa-trash"></i>
+                        <a><i class="fa-sharp fa-solid fa-trash"></i></a>
                     </div>
                     <div className="fav-row">
                         <div>
@@ -47,7 +47,7 @@ function Favoris(){
                         </div>
                         <p>Baha Lina</p>
                         <span>100$</span>
-                        <i class="fa-sharp fa-solid fa-trash"></i>
+                        <a><i class="fa-sharp fa-solid fa-trash"></i></a>
                     </div>
                 </section>
                

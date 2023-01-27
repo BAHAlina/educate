@@ -5,13 +5,14 @@ function Home (){
     return(
         <div className="content">
             <div className="ecr">
-                <h4>Bienvenus Dans Notre S  ite</h4>
-                <h1>Online <span>Education</span></h1>
-                <h3>Here we found our annomnement and news</h3>
+                <h2>Bienvenus Dans Notre Plateforme <span>Educative</span></h2>
+                
+                <h3>Rejoingez nous pour decouvrir plus d'informations sur les cours de soutiens!!
+                            Cherchez l'annonce</h3>
                 <div className="newslatter">
 				<form>
-					<input type="text"   placeholder="Enter The annocement"/>
-					<input type="submit" value="Search"/>
+					<input type="text"   placeholder="Entrer l'annocement"/>
+					<input type="submit" value="Chercher"/>
 				</form>
 			</div>
 				

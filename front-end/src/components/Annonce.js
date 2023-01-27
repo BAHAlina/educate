@@ -7,7 +7,7 @@ function Annonce(){
         {
             id:1,
             img :'/Images/img1.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -15,7 +15,7 @@ function Annonce(){
         {
             id:2,
             img :'/Images/img2.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -24,7 +24,7 @@ function Annonce(){
         {
             id:3,
             img :'/Images/img3.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -32,7 +32,7 @@ function Annonce(){
         {
             id : 4,
             img :'/Images/img1.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -40,7 +40,7 @@ function Annonce(){
         {
             id :5,
             img :'/Images/img2.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -48,7 +48,7 @@ function Annonce(){
         {
             id:6,
             img :'/Images/img3.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -56,7 +56,7 @@ function Annonce(){
         {
             id:7,
             img :'/Images/img1.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -64,7 +64,7 @@ function Annonce(){
         {
             id:8,
             img :'/Images/img2.jpg',
-            describtion :'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ',
+            describtion :'Rejoignez les bac cours de math avec monsieurs Abdelhamid Smail  ',
             wilaya:'Bejaia',
             cat:'math',
             blog:'/blog'
@@ -89,17 +89,17 @@ function Annonce(){
                 
             </div>
             <div className="filter">
-                    <h5>Filter by</h5>
+                    <h5>Filtrez par</h5>
                     <ul className="by">
                         <li><button>Module</button></li>
                         <li><button>wilaya</button></li>
                         <li><button>Commune</button></li>
                         <li><button>Date</button></li>
                     </ul>
-                    <a className="add" href="https://docs.google.com/forms/d/e/1FAIpQLSfRYARXPjoz9hUDaDLQTYqwhHenUCl0iEaVxaVZCfsS7DUlnw/viewform?embedded=true"><button>Add</button></a>
+                    <a className="add" href="https://docs.google.com/forms/d/e/1FAIpQLSfRYARXPjoz9hUDaDLQTYqwhHenUCl0iEaVxaVZCfsS7DUlnw/viewform?embedded=true"><button><i class="fa-sharp fa-solid fa-plus"></i></button></a>
                     <div className="ser">
             
-                        <input className="search-bar" type="text" placeholder="Search..."/>
+                        <input className="search-bar" type="text" placeholder="Cherecher..."/>
                         
                     
                     </div><div className="btnn"><button><i className="fa-solid fa-magnifying-glass"></i></button></div>

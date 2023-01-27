@@ -6,7 +6,7 @@ function Chat(){
     return(
         <div>
             <div className="lien">
-                <a href="blog">retour</a>
+                <a href="/home">retour</a>
             </div>
             <div className="tous"><div className="contaainer">
                 <div className="header">

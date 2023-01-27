@@ -87,7 +87,7 @@
     font-weight: 500;
     padding: 12px 25px;
     color: #EFEFEF;
-    background-color:#F66B0E;
+    background-color:#1F4690;
     border-radius: 12px;
     margin: 10px 0 0 0;
     outline: none;
@@ -96,8 +96,9 @@
     transition: .3s ease;
 }
 .btn:hover{
-    background-color:#1F4690;
-    
+    background-color:#F66B0E;
+    color: #EFEFEF;
+    border: none;
 }
 .btn > a{
     color: #EFEFEF;  

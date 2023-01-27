@@ -19,12 +19,10 @@ function Blog(){
                         <h5><span>Lieu :</span> Paris</h5> 
                     
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                            . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat
+                        Des seances de 2h chaque vendredi et samedi seront deroulées avec Monsieur Maloum
+                        a l'ecole de kidsoft au prés de lycée Debih Cherif a 14h.
                         </p>
-                        <button>participer</button>
+                        <button>Rejoindre</button>
                         <button>Ajouter favoris</button> 
                     </div>
 
@@ -36,7 +34,7 @@ function Blog(){
                     <img src="/Images/place3.png" />
                     <img src="/Images/place4.jpg" />
                 </div>
-                <div className="foot"><h2>Annocer <span>information</span></h2></div>
+                <div className="foot"><h2>Informations <span>de prof</span></h2></div>
                 <div className="contact">
                     <div className="left">
                         <img src="/Images/prof.jpg" />

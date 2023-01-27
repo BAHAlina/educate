@@ -9,31 +9,30 @@ function Footer(){
                     <div className="footer-col">
                         <h4>Learn<span>It</span></h4>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        vous trouverez avec nous tous ce que peut aider l'eleve pour s'ameliorer.
                         </p>
                     </div>
                     <div className="footer-col">
-                        <h4>Liens</h4>
+                        <h4>Raccourcis</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Apropos de nous</a></li>
                             <li><a href="#">Annocement</a></li>
                             <li><a href="#">Nouvelles</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Contact nous</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
                         <h4>Services</h4>
                         <ul>
-                            <li><a href="#">offline</a></li>
-                            <li><a href="#">online</a></li>
-                            <li><a href="#">gratuit</a></li>
-                            <li><a href="#">payant</a></li>
+                            <li><a href="#">Ajouter une annonce</a></li>
+                            <li><a href="#">chercher une annonces</a></li>
+                            <li><a href="#">filtrer les annonces</a></li>
+                            <li><a href="#">Envoyer un message</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
-                        <h4>follow us</h4>
+                        <h4>Rejoingnez Nous</h4>
                         <div className="social-links">
                             <a href="#"><i className="fab fa-facebook-f"></i></a>
                             <a href="#"><i className="fab fa-twitter"></i></a>

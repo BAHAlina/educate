@@ -11,7 +11,7 @@ function Oannoune(props){
                     <p>{props.describtion}</p>
                     <p><span>Wilaya : </span>{props.wilaya}</p>
                     <p><span>Theme : </span>{props.cat}</p>
-                    <a href={props.blog}><button className="nbr1">More details</button></a>
+                    <a href={props.blog}><button className="nbr1">Voir Plus</button></a>
                     <button className="save"><img src="/Images/bookmark.png"/></button>
                 </div>
             </div>
